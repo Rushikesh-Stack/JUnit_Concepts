@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class SortingArraay
 {
-    public int[] sortArray(int array[])
+    public int[] sortArray(int[] array)
     {
         Arrays.sort(array);
         return array;

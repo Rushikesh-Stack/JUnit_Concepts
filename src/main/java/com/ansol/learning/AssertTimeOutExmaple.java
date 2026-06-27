@@ -1,4 +1,16 @@
 package com.ansol.learning;
 
-public class AssertTimeOutExmaple {
+import java.util.Arrays;
+
+public class AssertTimeOutExmaple
+{
+    public int[] sortingArray(int[] array)
+    {
+        for(int i=0;i<100000;i++)
+        {
+            Arrays.sort(array);
+        }
+
+        return array;
+    }
 }
